@@ -1,0 +1,46 @@
+Certainly! The Cleveland Clinic Heart Disease Dataset is a valuable resource for predicting coronary heart disease (CHD) by non-invasive means.
+
+****************************************************************************************************************************
+****************************************************************************************************************************
+Context:
+
+CHD involves the reduction of blood flow to the heart muscle due to the build-up of plaque in the arteries of the heart.
+Invasive coronary angiography is the gold standard for diagnosing CHD, but it is costly and associated with morbidity and mortality.
+Researchers aim to develop a non-invasive alternative to replace the current gold standard.
+Dataset Information:
+Observations: 303
+Features: 13
+
+****************************************************************************************************************
+****************************************************************************************************************
+
+Target Attribute: Presence or absence of coronary artery disease (CAD) based on invasive coronary angiogram results.
+0: Absence of CHD
+1-4: Presence of CHD
+Features include:
+Age: Age in years
+Sex: 1 (male) or 0 (female)
+Chest Pain Type (cp):
+1: Typical angina
+2: Atypical angina
+3: Non-anginal pain
+4: Asymptomatic
+Resting Blood Pressure (trestbps): In mm Hg on admission to the hospital
+Serum Cholesterol (chol): In mg/dl
+Fasting Blood Sugar (fbs): > 120 mg/dl (1 = true; 0 = false)
+Resting Electrocardiographic Results (restecg):
+0: Normal
+1: ST-T wave abnormality
+2: Probable or definite left ventricular hypertrophy
+Maximum Heart Rate Achieved (thalach)
+Exercise-Induced Angina (exang): 1 (yes) or 0 (no)
+ST Depression Induced by Exercise Relative to Rest (oldpeak)
+Target Variable:
+
+*************************************************************************************
+*************************************************************************************
+
+Represents the presence or absence of CAD based on invasive coronary angiogram results.
+Most research using this dataset focuses on distinguishing presence (values 1-4) from absence (value 0).
+Data Source:
+Collected by Dr. Robert Detrano from the Cleveland Clinic Foundation.
